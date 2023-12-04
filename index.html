@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: column;
+            background-color: black;
+            color: white;
+        }
+        table {
+            padding: 1rem;
+            border: 1px solid gold;
+            height: 80vh;
+            width: 80vw;
+            background-color: rgba(255, 0, 0, 0.486);
+        }
+
+        th {
+            width: 11.42vw;
+        }
+
+        td {
+            position: relative;
+            border: 1px solid black;
+            background-color: green;
+        }
+
+        .day {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 70%;
+            height: 70%;
+            border: 1px solid;
+            position: absolute;
+            right: 6%;
+            bottom: 10%;
+            transition: all 0.3s;
+            transform: rotateY(67.5deg);
+            opacity: 0;
+        }
+
+        .day:hover {
+            box-shadow: 0px 0px 9px 3px goldenrod;
+            background-color: rgba(255, 0, 0, 0.705);
+            border: 1px solid gold;
+            transform: rotateY(0deg);
+            opacity: 1;
+        }
+
+        td h1 {
+            position: absolute;
+            font-size: 1rem;
+            color: white;
+            width: 100%;
+        }
+
+        img {
+            border-radius: 3px;
+            width: 50%;
+            height: 70%;
+        }
+
+        p {
+            width: 50%;
+            height: 20%;
+            margin: 0;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calendário Dezembro</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+            </tr>
+        </thead>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <h1>1</h1>
+                <div class="day">
+                    <img src="Prendas.jpg" alt="">
+                    <p>gifts</p>
+                </div>
+            </td>
+            <td>
+                <h1>2</h1>
+                <div class="day">
+                    <img src="presepios.jpg" alt="">
+                    <p>nativity scenes</p>
+                </div>
+            </td>
+            <td>
+                <h1>3</h1>
+                <div class="day">
+                    <img src="frango.jpg" alt="">
+                    <p>chiken</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h1>4</h1>
+                <div class="day">
+                    <img src="peru.jpg" alt="">
+                    <p>peru</p>
+                </div>
+            </td>
+            <td>
+                <h1>5</h1>
+                <div class="day">
+                    <img src="BOLAS-NATAL.webp" alt="">
+                    <p>christmas balls</p>
+                </div>
+            </td>
+            <td>
+                <h1>6</h1>
+                <div class="day">
+                    <img src="cozerbatatas.jpg" alt="">
+                    <p>Baked potatoes</p>
+                </div>
+            </td>
+            <td>
+                <h1>7</h1>
+                <div class="day">
+                    <img src="larerira.jpg" alt="">
+                    <p>Fireplace</p>
+                </div>
+            </td>
+            <td>
+                <h1>8</h1>
+                <div class="day">
+                    <img src="piscas.jpg" alt="">
+                    <p>Christmas Lights</p>
+                </div>
+            </td>
+            <td>
+                <h1>9</h1>
+                <div class="day">
+                    <img src="presepios.jpg" alt="">
+                    <p>Nativity Scene</p>
+                </div>
+            </td>
+            <td>
+                <h1>10</h1>
+                <div class="day">
+                    <img src="leitao.jpg" alt="">
+                    <p>Piglet</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h1>11</h1>
+                <div class="day">
+                    <img src="bacalhau.jpg" alt="">
+                    <p>Cod</p>
+                </div>
+            </td>
+            <td>
+                <h1>12</h1>
+                <div class="day">
+                    <img src="hotchocalate.jpg" alt="">
+                    <p>Hot chocolate</p>
+                </div>
+            </td>
+            <td>
+                <h1>13</h1>
+                <div class="day">
+                    <img src="ovo.jpg" alt="">
+                    <p>Boiled Eggs</p>
+                </div>
+            </td>
+            <td>
+                <h1>14</h1>
+                <div class="day">
+                    <img src="pequeno jeus.jpg" alt="">
+                    <p>Little baby Jesus</p>
+                </div>
+            </td>
+            <td>
+                <h1>15</h1>
+                <div class="day">
+                    <img src="chocolate.jpg" alt="">
+                    <p>Chocolate</p>
+                </div>
+            </td>
+            <td>
+                <h1>16</h1>
+                <div class="day">
+                    <img src="cabrito.jpg" alt="">
+                    <p>Goatlet</p>
+                </div>
+            </td>
+            <td>
+                <h1>17</h1>
+                <div class="day">
+                    <img src="homem.jpg" alt="">
+                    <p>Snow man</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h1>18</h1>
+                <div class="day">
+                    <img src="neve.jpg" alt="">
+                    <p>Snow</p>
+                </div>
+            </td>
+            <td>
+                <h1>19</h1>
+                <div class="day">
+                    <img src="chocolatenatal.jpg" alt="">
+                    <p>Chocolate Santa Claus</p>
+                </div>
+            </td>
+            <td>
+                <h1>20</h1>
+                <div class="day">
+                    <img src="bolorei.jpg" alt="">
+                    <p>King Cake</p>
+                </div>
+            </td>
+            <td>
+                <h1>21</h1>
+                <div class="day">
+                    <img src="paodelo.jpg" alt="">
+                    <p>Sponge Cake</p>
+                </div>
+            </td>
+            <td>
+                <h1>22</h1>
+                <div class="day">
+                    <img src="pudim.jpg" alt="">
+                    <p>Pudding</p>
+                </div>
+            </td>
+            <td>
+                <h1>23</h1>
+                <div class="day">
+                    <img src="champem.jpg" alt="">
+                    <p>Champagne</p>
+                </div>
+            </td>
+            <td>
+                <h1>24</h1>
+                <div class="day">
+                    <img src="whiskey.jpg" alt="">
+                    <p>Whiskey</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h1>25</h1>
+                <div class="day">
+                    <img src="charuto.jpg" alt="">
+                    <p>Cigars</p>
+                </div>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
